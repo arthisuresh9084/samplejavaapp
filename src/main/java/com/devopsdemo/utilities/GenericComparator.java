@@ -32,7 +32,7 @@ public class GenericComparator implements Comparator, Serializable {
 	protected static final String DATATYPE_BOOLEAN = "java.lang.Boolean";
 
 	protected enum CompareMode { EQUAL, LESS_THAN, GREATER_THAN, DEFAULT }
-	// generic comparator attributes
+	/// generic comparator attributes
 	protected String targetMethod;
 	protected boolean sortAscending;
 
